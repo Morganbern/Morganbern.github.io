@@ -1,4 +1,5 @@
 
+
 #Home, #ensemble, #Xp, #Knowledge, #follow, #Contact, footer{
   display: none;
 }
@@ -373,7 +374,7 @@ h6{
     }
   #Knowledge{
   padding-bottom: 0px;
-  text-align: center;
+  justify-content: center;
   align-items: center;
   }
   .all-logo{
