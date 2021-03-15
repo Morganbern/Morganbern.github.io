@@ -60,6 +60,7 @@
 @media (max-width:600px) {
 	.menu-burger {top:1em; right:2em; z-index:9999;}
 	.menu {left:-200%; width:100%;}
+	.bar1 ,.bar2 ,.bar3{background-color:black;}
 
 	/* Animations pour le menu slide */
 	@keyframes slideRight {
