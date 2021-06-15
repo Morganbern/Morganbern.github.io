@@ -10,6 +10,6 @@ new Typewriter(txtAnim,{
 .deleteChars(7)
 .typeString('Becoming')
 .pauseFor(300)
-.typeString('<strong> an Engeneer</strong>')
+.typeString('<strong> an Engineer</strong>')
 .pause(1000)
 .start()
