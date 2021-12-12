@@ -40,7 +40,7 @@
 }
 .skill-bars .bar .progress-line{
   height: 10px;
-  width: 100%;
+  width: 85%;
   background: #f0f0f0;
   position: relative;
   transform: scaleX(0);
@@ -67,17 +67,20 @@
 .bar .progress-line.html span{
   width: 80%;
 }
-.bar .progress-line.css span{
-  width: 70%;
-}
-.bar .progress-line.jquery span{
+.bar .progress-line.java span{
   width: 75%;
 }
 .bar .progress-line.python span{
-  width: 50%;
+  width: 70%;
 }
-.bar .progress-line.mysql span{
-  width: 75%;
+.bar .progress-line.english span{
+  width: 80%;
+}
+.bar .progress-line.spanish span{
+  width: 65%;
+}
+.bar .progress-line.office span{
+  width: 80%;
 }
 .progress-line span::before{
   position: absolute;
@@ -114,19 +117,22 @@
 .progress-line.html span::after{
   content: "80%";
 }
-.progress-line.css span::after{
-  content: "70%";
-}
-.progress-line.jquery span::after{
+.progress-line.java span::after{
   content: "75%";
 }
 .progress-line.python span::after{
-  content: "50%";
+  content: "70%";
 }
-.progress-line.mysql span::after{
-  content: "75%";
+.progress-line.english span::after{
+  content: "80%";
+}
+.progress-line.spanish span::after{
+  content: "65%";
 }
 
+.progress-line.office span::after{
+  content: "80%";
+}
 
 @media only screen and (max-width: 720px) {
   .skill-bars{

@@ -1,13 +1,14 @@
 
-#Home, #ensemble, #Xp, #Knowledge, #follow, #Contact, footer{
-  display: none;
-}
 
 body, html{
 	height: 100%;
 	margin: 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
-	color: #777;
+	-webkit-user-select: none; 
+  -webkit-touch-callout: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
 }
 
 
@@ -64,7 +65,6 @@ body, html{
 	display: flex;
 }
 .text-about{
-	color: #777;
 	background-color:white;
 	text-align:center;
 	padding:50px 80px;
@@ -154,7 +154,7 @@ h2{
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 40px "Lato", sans-serif;
-  color: #111;
+  color: #444649;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -170,6 +170,7 @@ h2{
 
 h3{
   font-size: 2em;
+  color: #444649
 }
 
 #Atout{
@@ -180,8 +181,11 @@ h3{
 	padding:50px 80px;
 }
 
+
+
 #Xp nav ul{
 	list-style-type: none;
+  margin-top: 30px;
 }
 
 #Xp nav ul li{
@@ -211,45 +215,64 @@ h3{
 .logo{
 	padding-right: 10px;
 	padding-left: 100px;
+  position: relative;
 }
 
 .all-logo{
-	display: inline-flex;
-	padding: 80px 200px;
+  display: flex;
+  justify-content: center;
+	padding-top: 80px;
+  padding-bottom: 10px;
 }
 
 footer{
   width: 100%;
   position: absolute;
   height: 160px;
-  color:#ddd;
+  color:#f5f5f5;
   background-color:#282E34;
+  text-align: center;
+
+}
+
+footer a{
+  text-decoration: none;
+  color:#f5f5f5;
 }
 
 h6{
-  width: 100%
-  padding-top:40px;
+  padding-top: 40px;
   text-align: center;
   color: white;
   font-size: 1.6em;
 }
 
+
+
 .footer{
   display: inline-flex;
   background-color:#282E34;
   width: 100%;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
+footer h6{
+  color: #f5f5f5;
+  font-size: 1.3em;
+}
+
+
 .find-1, .find-2, .find-3{
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 1%;
-  padding-top: 2%;
-  font-size: 0.9em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
 }
 
 .find-1{
-  margin-left: 19.3%;
+  
 }
 
 .f-logo{
@@ -322,18 +345,16 @@ h6{
   }
   .footer{
     display: inline-block;
-  }
+    text-align: center;
+    }
   .find-1, .find-2, .find-3{
-  padding-left: 0%;
-  padding-right: 0%;
-  padding-bottom: 0%;
-  padding-top: 0%;
+  text-align: center; 
   align-items: center;
-  text-align: center;
+  width: 500px;
   }
 
 .find-1{
-  margin-left: 0%;
+
   }
 }
 
@@ -400,17 +421,9 @@ h6{
     display: inline-block;
   }
   .find-1, .find-2, .find-3{
-  padding-left: 0%;
-  padding-right: 0%;
-  padding-bottom: 0%;
-  padding-top: 0%;
-  align-items: center;
-  text-align: center;
+    width: 300px;
   }
 
-.find-1{
-  margin-left: 0%;
-  }
 }
 
 
