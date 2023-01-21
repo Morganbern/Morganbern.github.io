@@ -1,3 +1,6 @@
+
+
+
 #centerid{
   display: flex;
   margin-right: auto;
@@ -7,8 +10,6 @@
 
 #mySlides{
   display: none;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 
@@ -43,8 +44,6 @@
   padding-bottom: 5px;
   list-style-type: none;
 }
-
-
 
 #ambition nav{
   padding-right: 60px;
@@ -108,4 +107,40 @@
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
   background-color: #717171;
+}
+
+
+#img1 img{
+  width : 250px; 
+}
+
+#img2 img{
+  width: 205px;
+}
+
+#img3 img, #img4 img{
+  width: 160px;
+}
+
+#img5 img{
+  width:170px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  #img1 img{
+    width : 200px;
+  }
+  
+  #img2 img{
+    width: 255px;
+  }
+  
+  #img3 img, #img4 img{
+    width:110px;
+  }
+  
+  #img5 img{
+    width:120px;
+  }
 }

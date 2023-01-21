@@ -18,12 +18,14 @@
  	<!-- <link rel="stylesheet" type="text/css" href="css/loader.css"> !-->
  	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
  	<script  src = " https://unpkg.com/typewriter-effect@latest/dist/core.js " ></script >
+ 	<script src="js/swipe-menu.js" async></script>
  	<script src="js/ecriture.js" async></script>
- 
-
+ 	<script src="js/app.js"></script>
+	<script src="js/particles-js"></script>
+	<script src="js/particles.min.js"></script>
 
 </head>
-<body>
+<body class=notranslate>
 	
 	<div id="Home" class="img-1" style="background:url(img/5.jpg);position: relative; background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;">
 		<div class="caption">
@@ -38,7 +40,7 @@
 				<li><a href="#Home" class="item">Home</a></li>
 				<li><a href="#About" class="item1">About me</a></li>
 				<li><a href="#follow" class="item2">My Project</a></li>
-				<li><a href="#Contact" class="item3">Contact</a></li>
+				<li><a href="#FindMe" class="item3">Contact</a></li>
 			</ul>
 		</nav>
 
@@ -56,7 +58,7 @@
   			<div class="bar5"></div>
 		 	<p>Hello!<br>
 		 	My name is BERNARD Morgan, I'm studing at the Esaip in Angers in order to become engineer in IOT (internet of things).<br>
-		 	I'm dynamic and serious. In my free time, i practice some sport as the judo(I got the black belt), look for new technologies and enjoy my time with friends.<br>
+		 	I'm dynamic and serious. In my free time, i practice some sport as the judo(I got the black belt), read manga and play on my computer. <br>
 		 	Let's scroll if u want to dicover me!
 		 	</p>		 	
 		 	<div class="bouton">
@@ -182,31 +184,26 @@
 		<div class="mySlides">
 			<div id="ambition">
 				<h3>My Ambition</h3>
-				<nav>
-					<ul>
-						
-						<li>
-							<p>
-							After my preparation school in math and physics, i decide to move into a computer school to learn programming because i was<br> spending a lots of time on my computer and looking a lots of revues about new technologies.<br> That's how i end myself at the Esaip in computer and network.<br>
-							Then I take the opportunity to work on IOT (internet of things) because i would like to explore different fields of work.
-							</p>
-						</li>
-							<br>
-						<li>
-							<p>
-							I already know how to programming in different language likes C, C++ which are usefull for embedded technology because it uses<br> less ressources.	
-							Furthermore i learn a lot about networks communication, Bus technology from professional speaker,because we <br>always need  to know which means of commmunication we going ot use in order to answer the most at the client need.
-							<br>
-							I also had at different time the opportunity to carry out project and take responsabilities, you go throught them at the bottom.
-							</p>	
-						</li>
-					</ul>
-				</nav>
-
-
-				
-								 
-							
+					<nav>
+						<ul>
+							<li>
+								I want to work as an Engineer in IOT (internet of things) because
+								<br> i like programming and would like to explore different fields of work.
+							</li>
+							<li>
+								I already know how to programming in different languages
+								<br> likes C ++, Java and how to make web site.
+							</li>
+							<li>
+								Furthermore i learn a lot about Bus technology, 
+								<br>communication networks from professional speaker.
+							</li>
+							<li>
+								I had at different time the opportunity to
+								<br> carry out project and take responsabilities. 
+							</li>
+						</ul>
+					</nav>
 			</div>
 		</div>
 		<a class="next" onclick="plusSlides(1)">❯</a>
@@ -249,22 +246,23 @@
 		</div>
 		<div class="carroussel">
 			<div class="web" id="img1">
-				<img src="img/bulgariaBlog.png" width="250px">
+				<img src="img/bulgariaBlog.png" >
 			</div>
 			<div class="web" id="img2">
-				<img src="img/siteDeVente.png" width="205 px">
+				<img src="img/siteDeVente.png" >
 			</div>
 			<div class="asso" id="img3">
-				<img src="img/esaipGame.jpg" width="160px">
+				<img src="img/esaipGame.jpg" >
 			</div>
 			<div class="web" id="img4">
-				<img src="img/desgin4Green.jpg" width="160px">
+				<img src="img/desgin4Green.jpg" >
 			</div>
 			<div class="web" id="img5">
-				<img src="img/detectionMaliciousAttack.jpg" width="170px">
+				<img src="img/detectionMaliciousAttack.jpg">
 			</div>
 		</div>
   	</div>
+	<!--
 	<div id="Contact" style="background: url(img/10.jpg);position: relative; background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;">
  		<h5>Get in touch ! </h5>
 
@@ -286,8 +284,8 @@
 			    <input type="submit" value="Submit">
 			  </form>
 			</div>
-	</div>
-  	<footer>
+	</div>-->
+  	<footer id="FindMe">
   		<h6>Or find me !</h6>
   		<div class="footer">  		
 	  		<div class="find-1">
@@ -323,10 +321,9 @@
 
       			<p>
 	      				I get by the school the oppotunity to carry an Erasmus in Bulgaria at Veliko Tarnovo to improve myself in English.
-	      				I have also been able to improve myself a lot in php, js and Arduino.
 	      				It's been a wonderful experience where I have been able to meet different people of different nationality. 
-	      			 	Furthemore,there is so much to see in Bulgaria as other many countries, it mades me want to repeat this experience.
-	      			 	Besides my studies I have been able to make different trips, i went to Plovdiv, Sofia which is the capital and to Turkey at Istanbul.
+	      			  Furthemore,there is so much to see in Bulgaria as other many countries, it made me want to repeat this experience.
+	      			  Besides my studies I have been able to make different trips, i went to Plovdiv, Sofia which is the capital and to Turkey at Istanbul.
       			</p>
       			<br>
       			<p>
@@ -347,7 +344,7 @@
     		</div>
     		<div class="modal-body">
       			<p>
-      				During my Erasmus in Bulgaria, i got the time to learn how to code in PHP and to carry a project. My aim was to create a website where you can buy clothes. Also, I wanted to see how much time it takes to make a dropshipping website. At the end it takes me around 2 weeks to make it. I try to make it safe from sql injection and from basic attack with the use of token. I didn't take the time to make the payment part of the website, it will be one of the last function to add if i wanted to update it. 
+      				During my Erasmus in Bulgaria, i got the time to learn how to code in PHP and to carry a project. My aim was to create a website where you can buy clothes. Also, I wanted to see how much time it takes to make a dropshipping website. At the end it takes me around 2 weeks to make it. I try to make it safe from sql injection and from basic attack with the use of token. I didn't take the time to make the payment part of the website, it will be one of the last function to add if wanted to update it.
       			</p>
       			<br>
       			<p>
@@ -365,7 +362,7 @@
     		</div>
     		<div class="modal-body">
       			<p>
-      					  I am involved in the association ESAIP Games as an event manager. ESAIP Game is a student association of ESAIP which consists of entertaining students with all types of games during their free time. Besides, it's help me to learn how to carry project with lots of people from different specification, and remind me that a well communication is fundamental. Here is my feedback if you want to know more :
+      					  I am involved in the association ESAIP Games as an event manager. ESAIP Game is a student association of ESAIP which consists of entertaining students with all types of games during their free time. Here is some feedback if you want to know more :
       					 <a href="https://groupeesaip-my.sharepoint.com/:b:/g/personal/mbernard_ir2023_esaip_org/EUEPEiofV6JHi7NNhcx8zVoB10NINVEPU3wjjSx6zVkZSA?e=lUapDU ">
       					 	my feedback
 								</a>
@@ -388,7 +385,7 @@
     		<div class="modal-body">
       			<p>
       				I get the opportunity to carry the international challenge named DESIGN4GREEN with the ESAIP in 2021. The aim of this challenge is to code something in an ecologic way, for my part i had to code in 2 days a website as ecological as possible and which respect several specifications imposed.
-      				it's been a great experience, i was able to put my knowledge and skills about website into practice.
+      				it's been a great experience, i was able to put my knowledge and skills into practice.
       			</p>
       			<br>
       			<p>

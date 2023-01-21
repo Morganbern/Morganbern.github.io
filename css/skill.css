@@ -109,6 +109,11 @@
   opacity: 0;
   animation: showText2 0.5s 1.5s linear forwards;
 }
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
 
 .progress-line.html span::after{
   content: "80%";
@@ -129,13 +134,6 @@
 .progress-line.office span::after{
   content: "80%";
 }
-
-@keyframes showText2 {
-  100%{
-    opacity: 1;
-  }
-}
-
 
 @media only screen and (max-width: 720px) {
   .skill-bars{

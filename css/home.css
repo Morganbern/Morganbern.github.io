@@ -1,3 +1,4 @@
+   
 
 
 body, html{
@@ -29,6 +30,10 @@ body, html{
 
 #Contact{
   min-height: 400px;
+}
+
+.mySlides{
+   flex-wrap: wrap;
 }
 
 
@@ -271,9 +276,6 @@ footer h6{
   width: 13%;
 }
 
-.find-1{
-  
-}
 
 .f-logo{
   text-align: center;
@@ -299,7 +301,7 @@ footer h6{
     letter-spacing: 6px;
   }
   #About{
-    display: block;
+    display: flex;
   }
   .text-about{
     padding-right: 80px;
@@ -317,9 +319,7 @@ footer h6{
   width: auto;
   height: 400px;
   }
-  #Atout{
-  display: inline-block;
-  }
+
   #Xp, #Skill{
     padding-top:0px;
     padding-bottom:0px;
@@ -353,9 +353,7 @@ footer h6{
   width: 500px;
   }
 
-.find-1{
 
-  }
 }
 
 
