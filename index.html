@@ -62,7 +62,7 @@
 		 	Let's scroll if u want to dicover me!
 		 	</p>		 	
 		 	<div class="bouton">
-		 	<a href="https://groupeesaip-my.sharepoint.com/:b:/g/personal/mbernard_ir2023_esaip_org/EZRMzi_1WNtArYe-FuiqfsYBsHrJ-VObBX7IEWC9Gvn3cw?e=8ioAsu">
+		 	<a href="https://groupeesaip-my.sharepoint.com/:b:/g/personal/mbernard_ir2023_esaip_org/Ebeiy6b1xTxLspi1Uips-8UBVK1szJsZ8qIHESjTNYs5Qw?e=Kp2jOL">
 		 	Download my CV
 		 	</a>
 		 	</div>
@@ -250,6 +250,9 @@
 			<h6 id="asso">ASSOCIATIVE</h6>
 		</div>
 		<div class="carroussel">
+			<div class ="none" id="img6">
+				<img src="img/salamanca.jpg">
+			</div>
 			<div class="web" id="img1">
 				<img src="img/bulgariaBlog.png" >
 			</div>
@@ -265,6 +268,8 @@
 			<div class="web" id="img5">
 				<img src="img/detectionMaliciousAttack.jpg">
 			</div>
+			
+
 		</div>
   	</div>
 	<!--
@@ -419,6 +424,22 @@
  		</div>
 	</div>
 	
+	<div id="myModal6" class="modal">
+ 		<div class="modal-content">
+    		<div class="modal-header">
+      			<span class="close6">&times;</span>
+      			<h2>Erasmus in Salamanca</h2>
+    		</div>
+    		<div class="modal-body">
+      			<p>
+      				Tuve la oportunitad de hacer un Erasmus en Salamanca en España. Hice cursos en la universidad de Salamanca, una universisdad muy concido porque fue uno de los primeras establecido en España. 
+      				Además, tuve la oportunidad de realizar prácticas en IOT en una pequeña empresa de Salamanca. Cabe destacar la realización de firmware para tarjetas embebidas.
+      				Esto me permitió mejorar mi nivel de español así como mis habilidades en informáticas.
+ 
+      			</p>
+    		</div>
+ 		</div>
+	</div>
 
 
 	<!--
@@ -521,6 +542,7 @@ var modal2 = document.getElementById("myModal2");
 var modal3 = document.getElementById("myModal3");
 var modal4 = document.getElementById("myModal4");
 var modal5 = document.getElementById("myModal5");
+var modal6 = document.getElementById("myModal6");
 
 
 var img1 = document.querySelector('#img1');
@@ -528,12 +550,14 @@ var img2 = document.querySelector('#img2');
 var img3 = document.querySelector('#img3');
 var img4 = document.querySelector('#img4');
 var img5 = document.querySelector('#img5');
+var img6 = document.querySelector('#img6');
 
 var close1 = document.querySelector('.close1');
 var close2 = document.querySelector('.close2');
 var close3 = document.querySelector('.close3');
 var close4 = document.querySelector('.close4');
 var close5 = document.querySelector('.close5');
+var close6 = document.querySelector('.close6');
 
 
 img1.onclick = function() {
@@ -554,6 +578,10 @@ img4.onclick = function() {
 
 img5.onclick = function() {
   modal5.style.display = "block";
+}
+
+img6.onclick = function() {
+  modal6.style.display = "block";
 }
 
 
@@ -577,6 +605,10 @@ close5.onclick = function() {
   modal5.style.display = "none";
 }
 
+close6.onclick = function() {
+  modal6.style.display = "none";
+}
+
 </script>
 
 
@@ -586,7 +618,7 @@ var asso = document.querySelector('#asso');
 var all = document.querySelector('#all');
 var img_web = document.querySelectorAll('.web');
 var img_asso = document.querySelectorAll('.asso');
-
+var img_none = document.querySelectorAll('.none');
 
 web.onclick = function() {
   			web.style.background = "#F5DEB3";
@@ -598,6 +630,10 @@ web.onclick = function() {
        img_web.forEach(img => {
        img.style.display = "initial";
     });
+       img_none.forEach(img => {
+       img.style.display = "none";
+    });
+
 }
 
 
@@ -611,6 +647,9 @@ asso.onclick = function() {
         img_asso.forEach(img => {
        img.style.display = "initial";
     });
+        img_none.forEach(img => {
+       img.style.display = "none";
+    });
 }
 
 all.onclick = function() {
@@ -621,6 +660,9 @@ all.onclick = function() {
        img.style.display = "initial";
     });
         img_asso.forEach(img => {
+       img.style.display = "initial";
+    });
+        img_none.forEach(img => {
        img.style.display = "initial";
     });
 }

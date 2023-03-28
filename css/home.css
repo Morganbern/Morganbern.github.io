@@ -14,6 +14,7 @@ body, html{
 
 
 
+
 .img-1, .bgimg-2, .Contact{
 	position: relative;
 	background-attachment: fixed;
@@ -145,7 +146,9 @@ body, html{
 	padding-right: 80px;
 	width: auto;
 	height: 500px;
+  border-radius: 15px;
 }
+
 
 .bar4{ 
     width: 120px;

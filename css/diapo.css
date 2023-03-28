@@ -122,7 +122,7 @@
   width: 160px;
 }
 
-#img5 img{
+#img5 img, #img6 img{
   width:170px;
 }
 
@@ -140,7 +140,7 @@
     width:110px;
   }
   
-  #img5 img{
+  #img5 img, #img6 img{
     width:120px;
   }
 }
